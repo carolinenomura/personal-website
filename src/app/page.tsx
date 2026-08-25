@@ -26,13 +26,13 @@ const translations = {
           date: "Aug 2026 — Present",
           role: "Extension Scholar | UFRJ (PR-5)",
           desc: "Develop and maintain the infrastructure for institutional web portals. Provide technological support and ensure the stability of platforms for major academic events, such as SIAC.",
-          tags: ["WordPress", "HTML", "CSS", "JavaScript", "MySQL", "PHP"]
+          tags: ["WordPress", "HTML", "CSS", "JavaScript", "MySQL", "PHP", "Docker", "GitLab"]
         },
         {
-          date: "Sep 2025 — Dec 2025",
+          date: "Jun 2026 — Present",
           role: "Competitive Team Member | UFRJ Analytica - Data League",
           desc: "Participate in practical projects, hackathons, and competitions focused on Data Science, Analytics, Machine Learning, and AI. Apply exploratory data analysis (EDA) and data wrangling techniques to clean and process complex datasets using Python",
-          tags: ["Python", "SQLite", "Google Cloud", "API"]
+          tags: ["Python", "SQLite", "Google Cloud", "API", "Docker"]
         },
         {
           date: "Sep 2025 — Dec 2025",
@@ -93,13 +93,13 @@ const translations = {
           date: "Ago 2026 — Presente",
           role: "Bolsista Extensionista | UFRJ (PR-5)",
           desc: "Desenvolvimento e manutenção da infraestrutura de portais web institucionais. Suporte tecnológico e garantia de estabilidade para grandes eventos acadêmicos, como a SIAC.",
-          tags: ["WordPress", "HTML", "CSS", "JavaScript", "MySQL","PHP"]
+          tags: ["WordPress", "HTML", "CSS", "JavaScript", "MySQL","PHP", "Docker", "GitLab"]
         },
         {
-          date: "Mar 2024 — Mai 2024",
+          date: "Jun 2026 — Presente",
           role: "Membro de Competição | UFRJ Analytica - Liga de Dados",
           desc: "Atuação em projetos práticos e hackathons com foco em Ciência de Dados, Analytics, Machine Learning e IA. Aplicação de análise exploratória (EDA) e tratamento de datasets complexos utilizando Python.",
-          tags: ["Python", "SQLite", "Google Cloud", "API"]
+          tags: ["Python", "SQLite", "Google Cloud", "API", "Docker"]
         },
         {
           date: "Set 2025 — Dez 2025",
@@ -191,7 +191,7 @@ export default function Portfolio() {
   };
 
   return (
-    <main className="max-w-6xl mx-auto px-6 md:px-12 lg:px-20 py-12 lg:py-24 grid lg:grid-cols-[1fr_2fr] gap-16 lg:gap-8 animate-in fade-in duration-1000">
+    <main className="max-w-6xl mx-auto px-6 md:px-12 lg:px-20 pt-4 pb-12 lg:py-24 grid lg:grid-cols-[1fr_2fr] gap-12 lg:gap-8 animate-in fade-in duration-1000">
       
       {/* LATERAL ESQUERDA (FIXA) */}
       <div className="lg:sticky lg:top-24 flex flex-col justify-between lg:h-[calc(100vh-12rem)]">
