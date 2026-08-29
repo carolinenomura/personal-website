@@ -12,7 +12,7 @@ const translations = {
     hero: {
       title: (
         <>
-          Hey, I’m <span className="font-medium">Caroline</span>, Computer Science undergraduate developing software and data-driven solutions.
+          Hey, I’m <span className="font-medium">Caroline</span>, a Computer Science undergraduate based in Rio, Brazil, developing software and data-driven solutions.
         </>
       ),
       p1: "I am a software developer and data enthusiast passionate about building technology that makes an impact. With a strong foundation in both software engineering and data science, I specialize in creating scalable web applications and transforming complex datasets into actionable insights.",
@@ -30,7 +30,7 @@ const translations = {
         },
         {
           date: "Jun 2026 — Present",
-          role: "Competitive Team Member | UFRJ Analytica - Data League",
+          role: "Competition Team Member | UFRJ Analytica - Data League",
           desc: "Participate in practical projects, hackathons, and competitions focused on Data Science, Analytics, Machine Learning, and AI. Apply exploratory data analysis (EDA) and data wrangling techniques to clean and process complex datasets using Python",
           tags: ["Python", "SQLite", "Google Cloud", "API", "Docker"]
         },
@@ -79,7 +79,7 @@ const translations = {
     hero: {
       title: (
         <>
-          Olá, sou a <span className="font-medium">Caroline</span>, graduanda em Ciência da Computação desenvolvendo softwares e soluções orientadas a dados.
+          Olá, sou a <span className="font-medium">Caroline</span>, graduanda em Ciência da Computação no Rio de Janeiro, desenvolvendo softwares e soluções orientadas a dados.
         </>
       ),
       p1: "Sou uma desenvolvedora de software apaixonada por construir tecnologia que gera impacto. Com uma base sólida tanto em engenharia de software quanto em ciência de dados, meu foco é criar aplicações web escaláveis e transformar conjuntos de dados complexos em insights acionáveis.",
@@ -97,7 +97,7 @@ const translations = {
         },
         {
           date: "Jun 2026 — Presente",
-          role: "Membro de Competição | UFRJ Analytica - Liga de Dados",
+          role: "Membro da Equipe de Competição | UFRJ Analytica - Liga de Dados",
           desc: "Atuação em projetos práticos e hackathons com foco em Ciência de Dados, Analytics, Machine Learning e IA. Aplicação de análise exploratória (EDA) e tratamento de datasets complexos utilizando Python.",
           tags: ["Python", "SQLite", "Google Cloud", "API", "Docker"]
         },
@@ -191,7 +191,7 @@ export default function Portfolio() {
   };
 
   return (
-    <main className="max-w-6xl mx-auto px-6 md:px-12 lg:px-20 pt-4 pb-12 lg:py-24 grid lg:grid-cols-[1fr_2fr] gap-12 lg:gap-8 animate-in fade-in duration-1000">
+    <main className="max-w-6xl mx-auto px-6 md:px-12 lg:px-20 pb-12 lg:py-24 grid lg:grid-cols-[1fr_2fr] gap-12 lg:gap-8 animate-in fade-in duration-1000">
       
       {/* LATERAL ESQUERDA (FIXA) */}
       <div className="lg:sticky lg:top-24 flex flex-col justify-between lg:h-[calc(100vh-12rem)]">
@@ -351,7 +351,7 @@ export default function Portfolio() {
             ))}
           </div>
 
-          <a href={lang === "pt" ? "/carolinenomura.pdf" : "/carolinenomura.pdf"} target="_blank" className="group flex items-center gap-1 text-sm font-medium hover:text-slate-600 transition-colors w-fit self-end mt-4">
+          <a href={lang === "pt" ? "/Curriculo.pdf" : "/Resume.pdf"} target="_blank" className="group flex items-center gap-1 text-sm font-medium hover:text-slate-600 transition-colors w-fit self-end mt-4">
             {t.experience.resumeBtn}
             <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-2" />
           </a>
